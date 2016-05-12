@@ -1,80 +1,82 @@
-<div class="panel panel-default">
-  <div class="panel-heading">
-    <h3 class="panel-title">Why Learn to Meditate?</h3>
+<div class="container">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h3 class="panel-title">Why Learn to Meditate?</h3>
+    </div>
+    <div class="panel-body">
+      <p class="lead">This application was created for Uber employees to treat feelings of stress with meditation. Ready to start?</p>
+    </div>
   </div>
-  <div class="panel-body">
-    <p class="lead">This application was created for Uber employees to treat feelings of stress with meditation. Ready to start?</p>
-  </div>
-</div>
 
-<div class="panel panel-default">
-  <div class="panel-heading">
-    <h3 class="panel-title">Some Background</h3>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h3 class="panel-title">Some Background</h3>
+    </div>
+    <div class="panel-body">
+      <p>Fill</p>
+      <hr>
+      <p>Fill</p>
+      <hr>
+    </div>
   </div>
-  <div class="panel-body">
-    <p>Fill</p>
-    <hr>
-    <p>Fill</p>
-    <hr>
-  </div>
-</div>
 
-<div class="panel panel-default">
-  <div class="panel-heading">
-    <h3 class="panel-title">Let's put this into practice</h3>
-  </div>
-  <div class="panel-body">
-    <p class="lead">There are actually various different ways to meditate. Pick one that looks interesting to you!</p>
-    <hr>
-    <ul>
-      <li>
-        <p>Focused attention meditation</p>
-        <p>Focusing the attention on a single object during the whole meditation session. This object may be the breath, a mantra, visualization, part of the body, external object, etc. As the practitioner advances, his ability to keep the flow of attention in the chosen object gets stronger, and distractions become less common and short-lived. Both the depth and steadiness of his attention are developed.</p>
-        <%= button_to "Try it out", new_meditation_url, method: :get, class: "btn btn-primary" %>
-      </li>
-    <hr>
-      <li>
-        <p>Open monitoring meditation</p>
-        <p>Instead of focusing the attention on any one object, we keep it open, monitoring all aspects of our experience, without judgment or attachment. </p>
-        <%= button_to "Try it out", new_meditation_url, method: :get, class: "btn btn-primary" %>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h3 class="panel-title">Let's put this into practice</h3>
+    </div>
+    <div class="panel-body">
+      <p class="lead">There are actually various different ways to meditate. Pick one that looks interesting to you!</p>
+      <hr>
+      <ul>
+        <li>
+          <p>Focused attention meditation</p>
+          <p>Focusing the attention on a single object during the whole meditation session. This object may be the breath, a mantra, visualization, part of the body, external object, etc. As the practitioner advances, his ability to keep the flow of attention in the chosen object gets stronger, and distractions become less common and short-lived. Both the depth and steadiness of his attention are developed.</p>
+          <%= button_to "Try it out", new_meditation_url, method: :get, class: "btn btn-primary" %>
+        </li>
+      <hr>
+        <li>
+          <p>Open monitoring meditation</p>
+          <p>Instead of focusing the attention on any one object, we keep it open, monitoring all aspects of our experience, without judgment or attachment. </p>
+          <%= button_to "Try it out", new_meditation_url, method: :get, class: "btn btn-primary" %>
 
-      </li>
-    <hr>
-      <li>
-        <p>Effortless Presence</p>
-        <p>It’s the state where the attention is not focused on anything in particular, but reposes on itself – quiet, empty, steady, and introverted. We can also call it “Choiceless Awareness” or “Pure Being”.</p>
-        <%= button_to "Try it out", new_meditation_url, method: :get, class: "btn btn-primary" %>
-      </li>
-    <hr>
-      <li>
-        <p>Zen Meditation (Zazen)</p>
-        <p>Focus all your attention on the movement of the breath going in and out through the nose. This may be aided by counting the breath in your mind. Each time you inhale you count one number, starting with 10, and then moving backward to 9, 8, 7, etc. When you arrive in 1, you resume from 10 again.</p>
-        <%= button_to "Try it out", new_meditation_url, method: :get, class: "btn btn-primary" %>
-      </li>
-    <hr>
-      <li>
-        <p>Vipassana Meditation</p>
-        <p>In general, however, most teachers emphasize  starting with mindfulness of breath in the first stages, to stabilize the mind and achieve “access concentration.” This is more like focused attention meditation. Then the practice moves on to developing “clear insight” on the bodily sensations and mental phenomena, observing them moment by moment and not clinging to any. Here goes an introduction, aimed for beginners.</p>
-        <%= button_to "Try it out", new_meditation_url, method: :get, class: "btn btn-primary" %>
-      </li>
-    <hr>
-      <li>
-        <p>Mindfulness Meditation</p>
-        <p>Mindfulness meditation is the practice of intentionally focusing on the present moment, accepting and non-judgmentally paying attention to the sensations, thoughts, and emotions that arise.</p>
-        <%= button_to "Try it out", new_meditation_url, method: :get, class: "btn btn-primary" %>
-      </li>
-    <hr>
-      <li>
-        <p>Loving Kindness Meditation</p>
-        <p>One sits down in a meditation position, with closed eyes, and generates in his mind and heart feelings of kindness and benevolence. Start by developing loving-kindness towards yourself, then progressively towards others and all beings. Usually this progression is advised:</p>
-        <%= button_to "Try it out", new_meditation_url, method: :get, class: "btn btn-primary" %>
-      </li>
-    <hr>
-      <li>
-        <p>Mantra Meditation (OM Meditation)</p>
-        <p>As most type of meditations, it is usually practiced sitting with spine erect, and eyes closed. The practitioner then repeats the mantra in his mind, silently, over and over again during the whole session.</p>
-        <%= button_to "Try it out", new_meditation_url, method: :get, class: "btn btn-primary" %>
-      </li>
-    </ul>
+        </li>
+      <hr>
+        <li>
+          <p>Effortless Presence</p>
+          <p>It’s the state where the attention is not focused on anything in particular, but reposes on itself – quiet, empty, steady, and introverted. We can also call it “Choiceless Awareness” or “Pure Being”.</p>
+          <%= button_to "Try it out", new_meditation_url, method: :get, class: "btn btn-primary" %>
+        </li>
+      <hr>
+        <li>
+          <p>Zen Meditation (Zazen)</p>
+          <p>Focus all your attention on the movement of the breath going in and out through the nose. This may be aided by counting the breath in your mind. Each time you inhale you count one number, starting with 10, and then moving backward to 9, 8, 7, etc. When you arrive in 1, you resume from 10 again.</p>
+          <%= button_to "Try it out", new_meditation_url, method: :get, class: "btn btn-primary" %>
+        </li>
+      <hr>
+        <li>
+          <p>Vipassana Meditation</p>
+          <p>In general, however, most teachers emphasize  starting with mindfulness of breath in the first stages, to stabilize the mind and achieve “access concentration.” This is more like focused attention meditation. Then the practice moves on to developing “clear insight” on the bodily sensations and mental phenomena, observing them moment by moment and not clinging to any. Here goes an introduction, aimed for beginners.</p>
+          <%= button_to "Try it out", new_meditation_url, method: :get, class: "btn btn-primary" %>
+        </li>
+      <hr>
+        <li>
+          <p>Mindfulness Meditation</p>
+          <p>Mindfulness meditation is the practice of intentionally focusing on the present moment, accepting and non-judgmentally paying attention to the sensations, thoughts, and emotions that arise.</p>
+          <%= button_to "Try it out", new_meditation_url, method: :get, class: "btn btn-primary" %>
+        </li>
+      <hr>
+        <li>
+          <p>Loving Kindness Meditation</p>
+          <p>One sits down in a meditation position, with closed eyes, and generates in his mind and heart feelings of kindness and benevolence. Start by developing loving-kindness towards yourself, then progressively towards others and all beings. Usually this progression is advised:</p>
+          <%= button_to "Try it out", new_meditation_url, method: :get, class: "btn btn-primary" %>
+        </li>
+      <hr>
+        <li>
+          <p>Mantra Meditation (OM Meditation)</p>
+          <p>As most type of meditations, it is usually practiced sitting with spine erect, and eyes closed. The practitioner then repeats the mantra in his mind, silently, over and over again during the whole session.</p>
+          <%= button_to "Try it out", new_meditation_url, method: :get, class: "btn btn-primary" %>
+        </li>
+      </ul>
+    </div>
   </div>
 </div>
