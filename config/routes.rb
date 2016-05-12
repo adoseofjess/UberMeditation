@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'meditations/create'
+
   root to: "static_pages#home"
 
   get 'static_pages/home'
