@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'meditations/create'
+  resources :meditations, only: [:new, :create]
 
   root to: "static_pages#home"
 
