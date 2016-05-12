@@ -1,10 +1,13 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
+var Container = require('./components/container');
 
 var MyComponent = React.createClass({
   render: function () {
     return(
-      <div>Hello World</div>
+      <div>
+        <Container />
+      </div>
     );
   }
 });
