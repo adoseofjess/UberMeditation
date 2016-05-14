@@ -22,10 +22,7 @@
       <li class="nav-item">
         <%= link_to "Practice", new_meditation_path %>
       </li>
-      <li class="nav-item">
-        <%= link_to "Reflect", root_path %>
-      </li>
-      <li class="nav-item">
+    <li class="nav-item">
         <%= link_to "About the Project", root_path %>
       </li>
     </ul>
@@ -44,6 +41,26 @@
     </div>
   <%- end -%>
   <%= yield %>
+</div>
+
+
+<div class="container">
+  <footer class="footer">
+    <span>
+      <p class="navbar-text">
+        Jessica J. Kim 
+      </p>
+      <p class="navbar-text">
+        <a href="https://github.com/adoseofjess/UberMeditation">Source Code</a>
+      </p>
+      <p class="navbar-text">
+        <a href="https://www.linkedin.com/in/jessicajk">LinkedIn</a>
+      </p>
+      <p class="navbar-text">
+        <a href="mailto:jessjkim@gmail.com">Contact Me</a>
+      </p>
+    </span>
+  </footer>
 </div>
 </body>
 </html>
