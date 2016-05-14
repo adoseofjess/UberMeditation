@@ -5,68 +5,64 @@
     </div>
     <div class="panel-body">
       <p class="lead">This application was created for Uber employees to treat feelings of stress with meditation. Ready to start?</p>
+      <p>There are actually various different ways to meditate. Pick one that looks interesting to you!</p>
     </div>
   </div>
 
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h3 class="panel-title">Let's put this into practice</h3>
+  <div class="blocks">
+    <div class="meditation-block">
+      <div class="meditation-title">Focused Attention</div>
+      <p>Focusing the attention on a single object during the whole meditation session.</p>
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#focusedModal">
+        Try it out
+      </button>
     </div>
-    <div class="panel-body">
-      <p class="lead">There are actually various different ways to meditate. Pick one that looks interesting to you!</p>
-      <hr>
-      <div class="blocks">
-        <div class="meditation-block">
-          <p>Focused attention meditation</p>
-          <p>Focus on the breath, a mantra, visualization, part of the body, external object.</p>
-          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
-            Try it out
-          </button>
-        </div>
-        <div class="meditation-block">
-          <p>Open monitoring meditation</p>
-          <p>We monitor all aspects of our experience, without judgment or attachment.</p>
-          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
-            Try it out
-          </button>
-        </div>
-        <div class="meditation-block">
-          <p>Effortless Presence</p>
-          <p>The attention is not focused on anything in particular, but reposes on itself.</p>
-          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
-            Try it out
-          </button>
-        </div>
-        <div class="meditation-block">
-          <p>Zen Meditation (Zazen)</p>
-          <p>Focus all your attention on the movement of the breath going in and out.</p>
-          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
-            Try it out
-          </button>
-        </div>
-        <div class="meditation-block">
-          <p>Vipassana Meditation</p>
-          <p>Stabilize the mind and achieve “access concentration.”</p>
-          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
-            Try it out
-          </button>
-        </div>
-        <div class="meditation-block">
-          <p>Mindfulness Meditation</p>
-          <p>Focus on the present moment, accepting and non-judgmentally.</p>
-          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
-            Try it out
-          </button>
-        </div>
-      </ul>
+    <div class="meditation-block">
+      <div class="meditation-title">Open Monitoring</div>
+      <p>We monitor all aspects of our experience, without judgment or attachment.</p>
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+        Try it out
+      </button>
+    </div>
+    <div class="meditation-block">
+      <div class="meditation-title">Effortless Presence</div>
+      <p>The attention is not focused on anything in particular, but reposes on itself.</p>
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+        Try it out
+      </button>
+    </div>
+    <div class="meditation-block">
+      <div class="meditation-title">Zen Meditation</div>
+      <p>Focus all your attention on the movement of the breath going in and out.</p>
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+        Try it out
+      </button>
+    </div>
+    <div class="meditation-block">
+      <div class="meditation-title">Vipassana Meditation</div>
+      <p>Stabilize the mind and achieve “access concentration.”</p>
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+        Try it out
+      </button>
+    </div>
+    <div class="meditation-block">
+      <div class="meditation-title">Mindfulness Meditation</div>
+      <p>Focus on the present moment, accepting and non-judgmentally.</p>
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+        Try it out
+      </button>
     </div>
   </div>
 </div>
 
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+
+
+<div class="modal fade" id="focusedModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-body">
+        <h1>Focused attention meditation</h1>
+        Focusing the attention on a single object during the whole meditation session. This object may be the breath, a mantra, visualization, part of the body, external object, etc. As the practitioner advances, his ability to keep the flow of attention in the chosen object gets stronger, and distractions become less common and short-lived. Both the depth and steadiness of his attention are developed.
         <div id="main"></div>
       </div>
       <div class="modal-footer">
