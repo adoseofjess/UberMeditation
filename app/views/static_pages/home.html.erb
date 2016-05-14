@@ -19,34 +19,59 @@
         <div class="meditation-block">
           <p>Focused attention meditation</p>
           <p>Focus on the breath, a mantra, visualization, part of the body, external object.</p>
-          <%= button_to "Try it out", new_meditation_url, method: :get, class: "btn btn-primary" %>
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+            Try it out
+          </button>
         </div>
         <div class="meditation-block">
           <p>Open monitoring meditation</p>
           <p>We monitor all aspects of our experience, without judgment or attachment.</p>
-          <%= button_to "Try it out", new_meditation_url, method: :get, class: "btn btn-primary" %>
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+            Try it out
+          </button>
         </div>
         <div class="meditation-block">
           <p>Effortless Presence</p>
           <p>The attention is not focused on anything in particular, but reposes on itself.</p>
-          <%= button_to "Try it out", new_meditation_url, method: :get, class: "btn btn-primary" %>
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+            Try it out
+          </button>
         </div>
         <div class="meditation-block">
           <p>Zen Meditation (Zazen)</p>
           <p>Focus all your attention on the movement of the breath going in and out.</p>
-          <%= button_to "Try it out", new_meditation_url, method: :get, class: "btn btn-primary" %>
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+            Try it out
+          </button>
         </div>
         <div class="meditation-block">
           <p>Vipassana Meditation</p>
           <p>Stabilize the mind and achieve “access concentration.”</p>
-          <%= button_to "Try it out", new_meditation_url, method: :get, class: "btn btn-primary" %>
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+            Try it out
+          </button>
         </div>
         <div class="meditation-block">
           <p>Mindfulness Meditation</p>
           <p>Focus on the present moment, accepting and non-judgmentally.</p>
-          <%= button_to "Try it out", new_meditation_url, method: :get, class: "btn btn-primary" %>
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+            Try it out
+          </button>
         </div>
       </ul>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div id="main"></div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
     </div>
   </div>
 </div>
