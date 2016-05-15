@@ -12,8 +12,8 @@
         </tr>
         <% @meditations.each do |meditation| %>
           <tr>
-            <td><%= meditation.start_time %></td>
-            <td><%= meditation.end_time %></td>
+            <td><%= meditation.start_time.strftime("%m/%d/%y %H:%M") %></td>
+            <td><%= meditation.end_time.strftime("%m/%d/%y %H:%M") %></td>
             <td><%= meditation.post_notes %></td>
           </tr>
         <% end %>
