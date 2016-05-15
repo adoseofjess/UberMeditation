@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  resources :meditations, only: [:new, :create]
+  resources :meditations, only: [:new, :create, :index]
   resources :static_pages do
     collection do
       get "landing"
