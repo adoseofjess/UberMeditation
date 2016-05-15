@@ -1,22 +1,46 @@
 <div class="container about-the-project-container">
-  <div class="panel panel-default about-the-project">
-    <div class="panel-heading">
-      <h3 class="panel-title">About the Project</h3>
-    </div>
-    <div class="panel-body">
-      <h3>Overview</h3>
-      <p>UberMeditation is a web application for Uber employees to use meditation in order to deal with stress and remain calm. I envisioned this as a stand-alone web application, linked to by Hipchat and internal wikis.</p>
-      <p>On this app, Uber employees will learn different meditation techniques and practice meditation with the help of a timer. In the future, they might also login, see their past meditation sessions, and schedule upcoming meditation sessions.</p>
-      <p>Uber employees are busy people, so I aimed to keep the content short and simple to digest. I also aimed to keep the design light. For example, on the “Learn” tab, the meditation techniques are shown on cards that resemble Post-It Notes to make it look fun and approachable.</p>
-      <p>The previous tabs show my prototypes of UberMeditation’s landing page, learning page, practice page, and reflect page.</p>
-      <ul>
-      <li>The landing page is a simple page with a title, description, and a call to action button to “Learn More.”</li>
-      <li>The learning page is where I show my digital learning experience. Users will be able to quickly scan different meditation techniques, see more detailed instructions, and start meditating. The main hope was for users to actually practice meditation, so I didn’t see the need for a lot of text.</li>
-      <li>The practice page shows a meditation timer with short and long session presets. You can adjust the time. You can pause and reset the timer.</li>
-      </ul>
-      <h3>Wireframes</h3>
-      <%= image_tag "wireframe1.jpg", height: "600", width: "400", class: "wireframe" %>
-      <%= image_tag "wireframe2.jpg", height: "600", width: "400", class: "wireframe" %>
-    </div>
+  <div class="about-the-project-content">
+    <p class="lead about-the-project-header">about the project</p>
+    <p>Uber Meditation is a web application for Uber employees to learn how to meditate in order to deal with stress and find peace. I envisioned this as a stand-alone web application, linked to by relevant Hipchat chatrooms and internal wikis within the company.</p>
+    <p class="lead about-the-project-header">current and future functionality</p>
+    <p>Currently, users can browse various meditation techniques, read detailed instructions, and practice meditation with the help of a timer. There is a page where users can view information about their past meditation sessions, currently seeded with fake data.</p>
+    <p>In the future, they might also log in, see more detailed stats about their past meditation sessions, schedule upcoming meditation sessions, and sign up for SMS and email alerts.</p>
+    <p class="lead about-the-project-header">content and design philosophy</p>
+    <p>Uber employees are busy, so I aimed to: 
+    <ul>
+      <li>keep the content short and simple</li>
+      <li>keep the design light and inviting</li> 
+      <li>keep it action-oriented</li>
+    </ul>
+      <p>For example, on the “Learn” tab, the meditation techniques are shown on cards that resemble Post-It Notes to make it look fun and approachable.</p>
+      <p>For each meditation technique, there are very short descriptions and only a couple of instruction bulletpoints, with a button to start meditating and learn while doing.</p>
+    <p class="lead about-the-project-header">prototypes</p>
+    <p>The previous tabs show my prototypes of UberMeditation’s landing page ("Uber Meditation" tab), digital learning exercise ("Learning" tab), practice page ("Practice" tab), and reflect page ("Reflect" tab).</p>
+    <ul>
+    <li>The landing page is a simple page with a title, description, and a call to action button to start learning.</li>
+    <li>On the learning page, users can scan different meditation techniques, click to see more detailed instructions, and start meditating. The main hope was for users to actually practice meditation, so I didn’t see the need for a lot of text.</li>
+    <li>The practice page shows a meditation timer with short and long session presets. You can adjust the time. You can pause and reset the timer.</li>
+    </ul>
+    <p class="lead about-the-project-header">future designs</p>
+    <p>I created prototypes for the landing page and other features of this digital internal learning platform, so I worked on two screen mockups of future features I envisioned.</p>
+    <p class="lead about-the-project-subheader">collect more data about individuals' meditations</p>
+    <p>I liked the idea of collecting more data on an individual level about meditation sessions. Users would be able to log their meditation sessions and add notes, and see some statistics. This would give users insights into any longitudinal trends.</p>
+    <%= image_tag "wireframe1.jpg", height: "600", width: "400", class: "wireframe" %>
+    <p>For example, in this mockup, a user is viewing her "Past Meditations" page. She sees a time-based graph about her meditation sessions and below that she sees a log of her meditation sessions, including her notes.</p>
+    <p class="lead about-the-project-subheader">schedule future meditation sessions and receive alerts</p>
+    <p>A concern I had was making it easy for Uber employees to stay accountable and continue to practice meditation. Even though users want to devote time to meditation, they may easily forget to do it.</p>
+    <p>One idea I had was meeting Uber employees where they already spend a lot of time by allowing users to schedule upcoming meditation sessions and sign up for alerts.</p>
+    <%= image_tag "wireframe2.jpg", height: "600", width: "400", class: "wireframe" %>
+    <p>In this mockup, a user is viewing her upcoming meditation sessions and can create new ones. She can edit or delete these sessions. She can also choose to sign up for SMS and/or email alerts for reminders.</p>
+    <p class="lead about-the-project-header">tools used</p>
+    <ul>
+      <li>Ruby on Rails</li>
+      <li>React.js</li>
+      <li>Bootstrap SASS</li>
+      <li>Balsamiq</li>
+      <li>Learned about meditation from this blog: http://liveanddare.com/types-of-meditation/</li>
+    </ul>
+    <p class="lead about-the-project-header">trade-offs or what I would have done differently?</p>
+    <p>Uber employees are busy people, so I aimed to keep the content short and simple to digest. I also aimed to keep the design light. For example, on the “Learn” tab, the meditation techniques are shown on cards that resemble Post-It Notes to make it look fun and approachable.</p>
   </div>
 </div>

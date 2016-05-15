@@ -102,14 +102,22 @@ body {
   padding-left: 15%;
 }
 
-.about-the-project {
-  width: 80%;
-  margin-left: 10%;
+.about-the-project-container {
+  width: 100%;
+  font-size: 20px;
 }
 
-.about-the-project-container {
-  background: red;
-  width: 100%;
+.about-the-project-header {
+  color: #DEA5A4;
+}
+
+.about-the-project-subheader {
+  font-style: italic;
+}
+
+.about-the-project-content {
+  width: 60%;
+  margin-left: 20%;
 }
 
 .wireframe {
