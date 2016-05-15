@@ -9,49 +9,70 @@
       <p>Pick one that looks interesting to you!</p>
 
       <div class="blocks">
-    <div class="meditation-block" style="background: #F49AC2;">
-      <div class="meditation-title">Focused Attention</div>
-      <p>Focusing the attention on a single object during the whole meditation session.</p>
-      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#focusedModal">
-        Try it out
-      </button>
-    </div>
-    <div class="meditation-block" style="background: #FFB347;">
-      <div class="meditation-title">Open Monitoring</div>
-      <p>We monitor all aspects of our experience, without judgment or attachment.</p>
-      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#openModal">
-        Try it out
-      </button>
-    </div>
-    <div class="meditation-block" style="background:#FDFD96;">
-      <div class="meditation-title">Effortless Presence</div>
-      <p>The attention is not focused on anything in particular, but reposes on itself.</p>
-      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#effortlessModal">
-        Try it out
-      </button>
-    </div>
-    <div class="meditation-block" style="background:#779ECB;">
-      <div class="meditation-title">Zen Meditation</div>
-      <p>Focus all your attention on the movement of the breath going in and out.</p>
-      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#zenModal">
-        Try it out
-      </button>
-    </div>
-    <div class="meditation-block" style="background:#B19CD9;">
-      <div class="meditation-title">Vipassana Meditation</div>
-      <p>Stabilize the mind and achieve “access concentration.”</p>
-      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#vipassanaModal">
-        Try it out
-      </button>
-    </div>
-    <div class="meditation-block" style="background:#77DD77;">
-      <div class="meditation-title">Mindfulness Meditation</div>
-      <p>Focus on the present moment, accepting and non-judgmentally.</p>
-      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mindfulnessModal">
-        Try it out
-      </button>
-    </div>
-  </div>
+        <div class="meditation-block" style="background: #F49AC2;">
+          <div class="meditation-title">Focused Attention</div>
+          <p>Focusing the attention on a single object during the whole meditation session.</p>
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#focusedModal">
+            Try it out
+          </button>
+        </div>
+        <div class="meditation-block" style="background: #FFB347;">
+          <div class="meditation-title">Open Monitoring</div>
+          <p>We monitor all aspects of our experience, without judgment or attachment.</p>
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#openModal">
+            Try it out
+          </button>
+        </div>
+        <div class="meditation-block" style="background:#FDFD96;">
+          <div class="meditation-title">Effortless Presence</div>
+          <p>The attention is not focused on anything in particular, but reposes on itself.</p>
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#effortlessModal">
+            Try it out
+          </button>
+        </div>
+        <div class="meditation-block" style="background:#779ECB;">
+          <div class="meditation-title">Zen Meditation</div>
+          <p>Focus all your attention on the movement of the breath going in and out.</p>
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#zenModal">
+            Try it out
+          </button>
+        </div>
+        <div class="meditation-block" style="background:#B19CD9;">
+          <div class="meditation-title">Vipassana Meditation</div>
+          <p>Stabilize the mind and achieve “access concentration.”</p>
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#vipassanaModal">
+            Try it out
+          </button>
+        </div>
+        <div class="meditation-block" style="background:#77DD77;">
+          <div class="meditation-title">Mindfulness Meditation</div>
+          <p>Focus on the present moment, accepting and non-judgmentally.</p>
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mindfulnessModal">
+            Try it out
+          </button>
+        </div>
+        <div class="meditation-block" style="background:#FF6961;">
+          <div class="meditation-title">Loving Kindness Meditation</div>
+          <p>Develop positive emotions through compassion.</p>
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#lovingModal">
+            Try it out
+          </button>
+        </div>
+        <div class="meditation-block" style="background:#FFD1DC;">
+          <div class="meditation-title">Mantra Meditation</div>
+          <p>Repeat a mantra, a syllable or word, to focus and calm your mind.</p>
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mantraModal">
+            Try it out
+          </button>
+        </div>
+        <div class="meditation-block" style="background:#836953;">
+          <div class="meditation-title">Pranayama Meditation</div>
+          <p>An excellent practice to calm the mind and prepare it for meditation.</p>
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#pranayamaModal">
+            Try it out
+          </button>
+        </div>
+      </div>
     </div>
   </div>
 </div>
@@ -175,6 +196,75 @@
           <li>Mindfulness meditation is the practice of intentionally focusing on the present moment, accepting and non-judgmentally paying attention to the sensations, thoughts, and emotions that arise.</li> 
           <li>For the “formal practice” time, sit on a cushion on the floor, or on a chair, with straight and unsupported back. Pay close attention to the movement of your breath. When you breath in, be aware that you are breathing in, and how it feels. When you breath out, be aware you are breathing out. Do like this for the length of your meditation practice, constantly redirecting the attention to the breath. Or you can move on to be paying attention to the sensations, thoughts and feelings that arise.</li>
           <li>The effort is to not intentionally add anything to our present moment experience, but to be aware of what is going on, without losing ourselves in anything that arises.</li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary" href="<%=new_meditation_url%>" role="button">Start Meditation</a>
+        <button type="button" class="btn btn-default modal-meditation-button" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="lovingModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Loving Kindness Meditation</h4>
+      </div>
+      <div class="modal-body">
+        <ul>
+          <li>Sit down in a meditation position with closed eyes, and generate in your mind and heart feelings of kindness and benevolence. Start by developing loving-kindness towards yourself, then progressively towards others and all beings. Usually this progression is advised:</li> 
+          <li>Oneself</li>
+          <li>A good friend</li>
+          <li>A neutral person</li>
+          <li>A difficult person</li>
+          <li>All four of the above equally</li>
+          <li>The entire universe</li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary" href="<%=new_meditation_url%>" role="button">Start Meditation</a>
+        <button type="button" class="btn btn-default modal-meditation-button" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="mantraModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Mantra Meditation</h4>
+      </div>
+      <div class="modal-body">
+        <ul>
+          <li>As most type of meditations, it is usually practiced sitting with spine erect, and eyes closed. The practitioner then repeats the mantra in his mind, silently, over and over again during the whole session.</li> 
+          <li>Sometimes this practice is coupled with being aware of the breathing or coordinating with it. In other exercises, the mantra is actually whispered very lightly and softly, as an aid to concentration.</li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary" href="<%=new_meditation_url%>" role="button">Start Meditation</a>
+        <button type="button" class="btn btn-default modal-meditation-button" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="pranayamaModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Pranayama Meditation</h4>
+      </div>
+      <div class="modal-body">
+        <ul>
+          <li>There are several different types of Pranayama, but the simplest and most commonly taught one is the 4-4-4-4. This means breathing in counting up to 4, holding for 4 seconds, breathing out for 4 seconds, and holding empty for 4 seconds.</li> 
+          <li>Breathe through your nose, and let the abdomen (and not the chest) be the one that moves. Go through a few cycles like this. </li>
+          <li>This regulation of breathing balances the moods and pacifies the body, and can be done anywhere.</li>
         </ul>
       </div>
       <div class="modal-footer">
