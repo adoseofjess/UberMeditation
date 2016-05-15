@@ -2,6 +2,8 @@
 
 ![alt text](app/assets/images/landing.jpg)
 
+![alt text](app/assets/images/timer.jpg)
+
 This web application was implemented for Uber's People Development Technology Exercise coding challenge.
 
 It is an app for Uber employees to learn different meditation techniques and practice meditation with the help of a timer. 
